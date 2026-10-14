@@ -65,6 +65,11 @@ section:not(.hero) {
     padding: 45px 8%;
 }
 
+/* About section layout */
+.about-container { display: flex; align-items: center; gap: 40px; flex-wrap: wrap; }
+.profile-img { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; }
+.about-text { flex: 1; min-width: 200px; }
+
 section h2 {
     color: #172554;
     margin-bottom: 20px;
